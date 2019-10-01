@@ -71,7 +71,8 @@ def categorical_sample_logits(X):
 # ================================================================
 
 def get_session():
-    return tf.get_default_session()
+    sess  = tf.keras.backend.get_session() if  tf.get_default_session() is None else tf.get_default_session()
+    return sess
 
 def single_threaded_session():
     tf_config = tf.ConfigProto(
