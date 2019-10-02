@@ -103,5 +103,5 @@ if __name__ == "__main__":
     print(f"input shape is {input_shape} and output shape is {out_shape}")
 
     model = make_model()
-    run_and_save(model, epochs=3)
+    run_and_save(model, epochs=30)
 
