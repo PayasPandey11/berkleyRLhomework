@@ -1,3 +1,9 @@
+"""
+Test model created  by behavioral cloning expert data by berkely cs234 
+Example usage:
+python test_bc.py Humanoid-v2
+"""
+
 import numpy as np
 from keras.models import load_model
 import gym

@@ -1,3 +1,9 @@
+"""
+Trains behavioral cloning model with expert data by berkely cs234 
+Example usage:
+python train_bc.py Humanoid-v2
+"""
+
 import pickle
 
 import numpy as np
